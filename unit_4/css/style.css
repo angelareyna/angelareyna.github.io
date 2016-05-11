@@ -1,22 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab|Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+* { margin:0; padding:0; box-sizing:border-box; }
 body	{
-	text-align: left;
-	background: url(http://guiltfreefoodguide.com/wp-content/uploads/2013/05/agave.jpg);
-	background-size: cover;
-	color: 40,40,40;
-}
-
-p	{
 	font-family: 'Lato', sans-serif;
-	font-weight: 200px
+	font-weight: 300;
+	text-align: left;
+	color: rgb(40,40,40);
 }
-
-h1	{
-	font-family: 'Josefin Slab', serif;
-
+section {
+	padding:5em 0;
 }
-
-h2	{
+h1, h2, h3	{
 	font-family: 'Josefin Slab', serif;
-
+}
+#splash {
+	background: url(http://guiltfreefoodguide.com/wp-content/uploads/2013/05/agave.jpg);
+	/* background-size: cover; */
+	height: 90vh;
+	background-repeat:no-repeat;
+}
+#splash{
+	padding: 10em;
 }
