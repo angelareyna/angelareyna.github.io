@@ -67,6 +67,23 @@ h1, h2, h3	{
 	padding: 6em;
 }
 
+@media only screen and (max-width: 800px) {
+	#reposado {
+		float: none;
+		width: auto;
+	}
+
+	#blanco {
+		float: none;
+		width: auto;
+	}
+
+	#anejo {
+		float: none;
+		width: auto;
+	}
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
