@@ -14,7 +14,7 @@ body	{
 	color: rgb(40,40,40);
 }
 section {
-	background-color: #FFE2B8;
+	background-color: #FFFFFF;
 	padding: 20px;
 }
 h1, h2, h3	{
@@ -34,17 +34,27 @@ h1, h2, h3	{
 }
 
 #blanco {
-	background-color: rgba(178, 202, 194, 0.71)
+	background-color: rgba(178, 202, 194, 0.71);
 	padding: 20px;
 	float: left;
 	width: 33%;
 }
 
 #anejo {
-	background-color: rgba(123, 173, 144, 0.73)
+	background-color: rgba(123, 173, 144, 0.73);
 	padding: 20px;
 	float: left;
 	width: 34%;
+}
+
+#our-story {
+	background-color: rgba(123, 173, 144, 0.73);
+	padding: 20px;
+}
+
+#contact {
+	background-color: rgba(178, 202, 194, 0.71);
+	padding: 20px;
 }
 
 #splash {
@@ -54,7 +64,7 @@ h1, h2, h3	{
 	background-repeat:no-repeat;
 }
 #splash{
-	padding: 10em;
+	padding: 6em;
 }
 
 .clearfix:after {
@@ -67,7 +77,6 @@ h1, h2, h3	{
 }
 
 footer	{
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: rgba(76, 155, 164, 0.71);
 	padding: 20px;
 }
