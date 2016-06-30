@@ -43,26 +43,23 @@ li {
 	background-color: #ffffff;
 	padding: 20px;
 }
-
+#product section {
+	padding: 2em;
+	float: left;
+	width: 33.33%;
+}
+#product img {
+	display:block;
+	margin:auto;
+}
 #reposado {
 	background-color: rgba(76, 155, 164, 0.71);
-	padding: 20px;
-	float: left;
-	width: 33%;
 }
-
 #blanco {
 	background-color: rgba(178, 202, 194, 0.71);
-	padding: 20px;
-	float: left;
-	width: 33%;
 }
-
 #anejo {
 	background-color: rgba(123, 173, 144, 0.73);
-	padding: 20px;
-	float: left;
-	width: 34%;
 }
 
 #our-story {
@@ -99,87 +96,6 @@ li {
 #splash{
 	padding: 6em;
 }
-
-
-@media only screen and (max-width: 800px) {
-	#reposado {
-		float: none;
-		width: auto;
-	}
-
-	#blanco {
-		float: none;
-		width: auto;
-	}
-
-	#anejo {
-		float: none;
-		width: auto;
-	}
-
-	#splash {
-		background-width: 800px
-		padding: 3em;
-	}
-
-	#our-story {
-		float: none;
-		width: auto;
-	}
-	
-	#process {
-		float: none;
-		width: auto;
-	}
-
-	#contact {
-		float: none;
-		width: auto;
-	}
-}
-
-@media only screen and (max-width: 1214px) {
-	#hand {
-		background-width: 640px;
-	}
-
-	#our-story {
-		float: none;
-		width: auto;
-	}
-	
-	#process {
-		float: none;
-		width: auto;
-	}
-
-	#contact {
-		float: none;
-		width: auto;
-	}
-}
-
-@media only screen and (max-width: 640px) {
-	#hand {
-		background-width: 320px;
-	}
-
-	#our-story {
-		float: none;
-		width: auto;
-	}
-	
-	#process {
-		float: none;
-		width: auto;
-	}
-
-	#contact {
-		float: none;
-		width: auto;
-	}
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -196,3 +112,39 @@ footer	{
   margin-top: 40px;
   clear: both;
 }
+
+@media only screen and (max-width: 1214px) {
+	#hand {
+		width: 50%;
+	}
+
+	#our-story {
+		float: none;
+		width: auto;
+	}
+	
+	#process {
+		float: none;
+		width: auto;
+	}
+
+	#contact {
+		float: none;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#product section {
+		float:none;
+		width:auto;
+	}
+	#splash {
+		background-size: cover;
+		padding: 3em;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+}
+
