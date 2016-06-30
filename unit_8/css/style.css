@@ -34,16 +34,14 @@ h1, h2, h3	{
 }
 
 #blanco {
-	background-color: #E55B88;
-	border: 1px black solid;
+	background-color: rgba(178, 202, 194, 0.71)
 	padding: 20px;
 	float: left;
 	width: 33%;
 }
 
 #anejo {
-	background-color: #E55B81;
-	border: 1px black solid;
+	background-color: rgba(123, 173, 144, 0.73)
 	padding: 20px;
 	float: left;
 	width: 34%;
