@@ -21,6 +21,24 @@ h1, h2, h3	{
 	font-family: 'Josefin Slab', serif;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  width: 33%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background: white;
+}
+
 #product {
 	background-color: #ffffff;
 	padding: 20px;
@@ -48,13 +66,28 @@ h1, h2, h3	{
 }
 
 #our-story {
-	background-color: rgba(123, 173, 144, 0.73);
+	background-color: #FFFFFF;
 	padding: 20px;
+	float: right;
+	width: 50%;
+}
+
+#process {
+	background-color: #FFFFFF;
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+
+#hand {
+	padding-bottom: 20px;
 }
 
 #contact {
-	background-color: rgba(178, 202, 194, 0.71);
+	background-color: #FFFFFF;
 	padding: 20px;
+	float: right;
+	width: 50%;
 }
 
 #splash {
@@ -66,6 +99,7 @@ h1, h2, h3	{
 #splash{
 	padding: 6em;
 }
+
 
 @media only screen and (max-width: 800px) {
 	#reposado {
@@ -82,6 +116,26 @@ h1, h2, h3	{
 		float: none;
 		width: auto;
 	}
+
+	#splash {
+		background-width: 800px
+		padding: 3em;
+	}
+
+	#our-story {
+		float: none;
+		width: auto;
+	}
+	
+	#process {
+		float: none;
+		width: auto;
+	}
+
+	#contact {
+		float: none;
+		width: auto;
+	}
 }
 
 .clearfix:after {
@@ -94,6 +148,9 @@ h1, h2, h3	{
 }
 
 footer	{
-	background-color: rgba(76, 155, 164, 0.71);
-	padding: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 18px 0;
+  margin-top: 40px;
+  clear: both;
 }
