@@ -138,6 +138,27 @@ li {
 	}
 }
 
+@media only screen and (max-width: 1214px) {
+
+	#tequila {
+		background-width: 640px;
+	}
+	#our-story {
+		float: none;
+		width: auto;
+	}
+	
+	#process {
+		float: none;
+		width: auto;
+	}
+
+	#contact {
+		float: none;
+		width: auto;
+	}
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
