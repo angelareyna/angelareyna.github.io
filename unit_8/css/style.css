@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header	{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+body	{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: rgb(40,40,40);
+}
+section {
+	background-color: #FFE2B8;
+	padding: 20px;
+}
+h1, h2, h3	{
+	font-family: 'Josefin Slab', serif;
+}
+
+#product {
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+#reposado {
+	background-color: rgba(76, 155, 164, 0.71);
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#blanco {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#anejo {
+	background-color: #E55B81;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 34%;
+}
+
+#splash {
+	background: url(http://guiltfreefoodguide.com/wp-content/uploads/2013/05/agave.jpg);
+	background-size: cover;
+	height: 90vh;
+	background-repeat:no-repeat;
+}
+#splash{
+	padding: 10em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer	{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
